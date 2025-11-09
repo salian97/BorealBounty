@@ -19,8 +19,12 @@ public class SimpleGetData : MonoBehaviour
             BoardShim.enable_dev_board_logger();
 
             BrainFlowInputParams input_params = new BrainFlowInputParams();
-            int board_id = (int) BoardIds.NEUROPAWN_KNIGHT_BOARD; // By default use NeuroPawn Knight Board
-            input_params.serial_port = serial_port; 
+
+            // int board_id = (int) BoardIds.NEUROPAWN_KNIGHT_BOARD; // By default use NeuroPawn Knight Board
+            int board_id = (int) BoardIds.SYNTHETIC_BOARD; // use Synthetic Board for test mode
+            
+            // input_params.serial_port = serial_port; 
+            
             board_shim = new BoardShim(board_id, input_params);
 
             board_shim.prepare_session();
