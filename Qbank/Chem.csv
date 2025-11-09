@@ -1,0 +1,21 @@
+questions,Answer1,Answer2,Answer3,Answer4,Hint,Correct Answer,Difficulty
+How many significant figures are in the number 0.00312 meters?,3,4,5,2,Count only the digits starting from the first non-zero digit,3,easy
+What type of mixture is vegetable soup?,Pure substance,Homogeneous mixture,Heterogeneous mixture,Compound,Consider if the composition is uniform throughout,Heterogeneous mixture,easy
+What is the SI base unit for mass?,Gram,Milligram,Kilogram,Pound,The standard unit for mass is defined with a prefix,Kilogram,easy
+Convert 85.0 °F to Kelvin.,29.4 K,358 K,302.6 K,181.1 K,Use the formula °C = (°F - 32) / 1.8 then K = °C + 273.15,302.6 K,medium
+What property distinguishes an intensive property from an extensive property?,Mass,Energy,Dependence on the amount of substance,Volume,Intensive properties do not depend on quantity,Dependence on the amount of substance,easy
+What summarizes a series of related observations?,A hypothesis,A law,A theory,An experiment,This statement often lacks explanation for the observed behavior,A law,easy
+What term describes wood burning?,Physical property,Physical change,Chemical property,Chemical change,Burning alters the fundamental identity of the material,Chemical change,easy
+What is the first step in the general four-step problem-solving procedure?,Strategize,Solve,Sort,Check,This involves identifying given and find information,Sort,easy
+A measurement is repeated several times yielding highly scattered results that are far from the true value. This set of results is best described as?,Accurate and precise,Accurate and imprecise,Inaccurate and precise,Inaccurate and imprecise,Consider the spread and deviation from the true value,Inaccurate and imprecise,medium
+Which law states that all samples of a given compound regardless of their source have the same proportions of their constituent elements?,Law of Conservation of Mass,Law of Definite Proportions,Law of Multiple Proportions,Law of Thermodynamics,This applies to the composition ratio within a single compound,Law of Definite Proportions,easy
+Which experiment led to the conclusion that atoms are mostly empty space?,Millikan oil drop experiment,Cathode ray experiment,Rutherford gold foil experiment,Photoelectric effect,This determined the existence of the small dense nucleus,Rutherford gold foil experiment,easy
+What are the numbers of protons and neutrons in the isotope Fe-58?,26 protons and 58 neutrons,32 protons and 26 neutrons,26 protons and 32 neutrons,58 protons and 58 neutrons,Iron's atomic number Z determines the number of protons,26 protons and 32 neutrons,medium
+Determine the number of electrons in the Cr3+ ion.,27 electrons,24 electrons,3 electrons,21 electrons,Chromium's Z is 24 and the charge indicates electron loss,21 electrons,medium
+Which element is not a main-group element?,Selenium,Molybdenum,Strontium,Barium,Main-group elements are found in the s-block or p-block,Molybdenum,easy
+Which pair of elements is expected to be most similar in their chemical properties?,K and Fe,O and Si,Ne and N,Br and I,Elements in the same column or group are chemically similar,Br and I,easy
+What is the charge of the ion most commonly formed by Sulfur (S)?,2+,+,-,2-,Sulfur is in Group 6A and typically gains two electrons,2-,easy
+What concept connects the mass of an element to the number of atoms it contains?,Atomic number,Avogadro's number,The Mole concept,Isotope symbol,This concept allows for macroscopic counting by weighing,The Mole concept,easy
+What is the density of a liquid sample that has a volume of 1.75 L and a mass of 1.61 x 10^3 g?,0.786 g/mL,0.921 g/mL,1.90 g/mL,1.61 g/mL,Density is Mass divided by Volume. Convert L to mL,0.921 g/mL,medium
+A compound containing only Carbon and Hydrogen has a Carbon-to-Hydrogen mass ratio of 11.89. Which ratio is possible for another compound composed only of Carbon and Hydrogen?,2.50,3.97,4.66,7.89,This question relates to the Law of Multiple Proportions,3.97,hard
+Why is Avogadro’s number defined as 6.022 x 10^23 and not a simpler round number like 1.00 x 10^23?,To match the number of particles in a specified mass of carbon-12,It is derived from the number of protons in a hydrogen atom,It is based on the volume of one mole of gas at STP,It links the atomic mass unit to the gram scale,To match the number of particles in a specified mass of carbon-12,medium
