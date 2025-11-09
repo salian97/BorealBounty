@@ -1,0 +1,54 @@
+-> TestDialogue
+=== TestDialogue ===
+Hello there...
+Welcome to the test dialogue...
+I am a squirrel lol........
+how many dots..........?
+is.................
+too many........................?
+If im right, this line will never run
+ 
+*[All of them squirrel!] -> SquirrelHate
+*[I hate dots] -> SquirrelHate
+*[I think more than 3 too much lol] ->SquirrelHate
+*[I am in love wiht you] -> SquirrelLove
+    
+    = SquirrelLove 
+    I love you too player </3
+    -> Test3Qs
+    
+    = SquirrelHate
+    I hate you player !!!
+    -> Test3Qs
+
+= Test3Qs
+All questions may require a filler line
+*1 -> Cont1
+*2 -> Cont2
+*3 -> Cont3
+
+= Cont1
+Yippe!!
+-> Test2Qs
+
+= Cont2
+AMAZING SAUCE
+-> Test2Qs
+
+= Cont3
+TestCase!
+-> Test2Qs
+
+= Test2Qs
+hello i am also filler
+*a ->End
+*b ->End2
+
+= End
+Awesome thanks lol
+-> END
+
+= End2
+Awesome thanks lolz
+-> END
+

@@ -21,9 +21,13 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (clickAction.WasPressedThisFrame()){
+            Debug.Log("A click is registering");
+        }
         if (!DialogueManager.Instance.isPlaying && clickAction.WasPressedThisFrame())
         {
             // DialogueManager is currently not running and does not exist, and the player has clicked the screen
+            Debug.Log("Initiate Dialogue from player");
             DialogueManager.Instance.StartQuestionDialogue(inkJSON, knotName);
         }
     }
