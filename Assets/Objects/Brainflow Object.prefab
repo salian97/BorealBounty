@@ -44,3 +44,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb2f5ea70933c770aa9dbe818176c1c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serial_port: ttyUSB0
