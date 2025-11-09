@@ -8,7 +8,7 @@ public class SimpleGetData : MonoBehaviour
 {
     private BoardShim board_shim = null;
     private int sampling_rate = 0;
-    public string serial_port = "COM11"; // set the serial port of your NeuroPawn Knight Board here
+    public string serial_port = "COMx"; // set the serial port of your NeuroPawn Knight Board here
 
     // Start is called before the first frame update
     void Start()
