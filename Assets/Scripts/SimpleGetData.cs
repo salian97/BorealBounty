@@ -4,11 +4,15 @@ using UnityEngine;
 
 using brainflow;
 using brainflow.math;
+using System;
 public class SimpleGetData : MonoBehaviour
 {
     private BoardShim board_shim = null;
     private int sampling_rate = 0;
     public string serial_port = "COMx"; // set the serial port of your NeuroPawn Knight Board here
+
+    private Tuple<double, double> alpha_band = new Tuple<double, double>(7.5, 12.5);
+    private Tuple<double, double> beta_band = new Tuple<double, double>(13.0, 30.0);
 
     // Start is called before the first frame update
     void Start()
