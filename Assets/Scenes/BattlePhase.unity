@@ -4700,6 +4700,7 @@ MonoBehaviour:
   bossTextObject: {fileID: 760706143}
   bossDialogueText: {fileID: 760706145}
   BattleController: {fileID: 1545674424}
+  prefab: {fileID: 5822859248993321076, guid: 5d07a52157d6bd747a74721aecc415d9, type: 3}
   isWaiting: 0
   isPlaying: 0
   currentSpeaker: 
@@ -4889,6 +4890,10 @@ PrefabInstance:
     - target: {fileID: 5822859248993321076, guid: 5d07a52157d6bd747a74721aecc415d9, type: 3}
       propertyPath: m_Name
       value: Brainflow Object
+      objectReference: {fileID: 0}
+    - target: {fileID: 5822859248993321076, guid: 5d07a52157d6bd747a74721aecc415d9, type: 3}
+      propertyPath: m_TagString
+      value: BrainFlow
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
