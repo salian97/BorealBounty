@@ -16575,3 +16575,297 @@
 [2025-11-09 11:26:06.628] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
 [2025-11-09 11:26:06.629] [board_logger] [trace] Board object created 57
 [2025-11-09 11:26:06.629] [board_logger] [info] openning port COM3
+[2025-11-09 12:06:38.647] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 12:06:38.647] [board_logger] [trace] Board object created 57
+[2025-11-09 12:06:38.647] [board_logger] [info] openning port COM3
+[2025-11-09 12:07:23.599] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 12:07:23.599] [board_logger] [trace] Board object created 57
+[2025-11-09 12:07:23.599] [board_logger] [info] openning port COM3
+[2025-11-09 12:24:32.107] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 12:24:32.108] [board_logger] [trace] Board object created 57
+[2025-11-09 12:24:32.108] [board_logger] [info] openning port COM3
+[2025-11-09 12:25:48.051] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 12:25:48.052] [board_logger] [trace] Board object created 57
+[2025-11-09 12:25:48.052] [board_logger] [info] openning port COM3
+[2025-11-09 12:26:33.589] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 12:26:33.589] [board_logger] [trace] Board object created 57
+[2025-11-09 12:26:33.589] [board_logger] [info] openning port COM3
+[2025-11-09 12:48:50.518] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 12:48:50.519] [board_logger] [trace] Board object created 57
+[2025-11-09 12:48:50.519] [board_logger] [info] openning port COM3
+[2025-11-09 12:50:22.638] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 12:50:22.638] [board_logger] [trace] Board object created 57
+[2025-11-09 12:50:22.638] [board_logger] [info] openning port COM3
+[2025-11-09 13:00:48.437] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 13:00:48.438] [board_logger] [trace] Board object created 57
+[2025-11-09 13:00:48.438] [board_logger] [info] openning port COM3
+[2025-11-09 13:05:21.037] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 13:05:21.038] [board_logger] [trace] Board object created 57
+[2025-11-09 13:05:21.038] [board_logger] [info] openning port COM3
+[2025-11-09 13:32:50.931] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 13:32:50.931] [board_logger] [trace] Board object created 57
+[2025-11-09 13:32:50.931] [board_logger] [info] openning port COM3
+[2025-11-09 13:33:49.008] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 13:33:49.009] [board_logger] [trace] Board object created 57
+[2025-11-09 13:33:49.009] [board_logger] [info] openning port COM3
+[2025-11-09 13:34:54.683] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 13:34:54.683] [board_logger] [trace] Board object created 57
+[2025-11-09 13:34:54.683] [board_logger] [info] openning port COM3
+[2025-11-09 13:36:01.296] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 13:36:01.297] [board_logger] [trace] Board object created 57
+[2025-11-09 13:36:01.297] [board_logger] [info] openning port COM3
+[2025-11-09 13:39:22.574] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 13:39:22.575] [board_logger] [trace] Board object created 57
+[2025-11-09 13:39:22.575] [board_logger] [info] openning port COM3
+[2025-11-09 13:40:35.035] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 13:40:35.036] [board_logger] [trace] Board object created 57
+[2025-11-09 13:40:35.036] [board_logger] [info] openning port COM3
+[2025-11-09 13:41:00.181] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 13:41:00.181] [board_logger] [trace] Board object created 57
+[2025-11-09 13:41:00.182] [board_logger] [info] openning port COM3
+[2025-11-09 14:48:44.854] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 14:48:44.855] [board_logger] [trace] Board object created 57
+[2025-11-09 14:48:44.855] [board_logger] [info] openning port COM3
+[2025-11-09 14:58:56.072] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 14:58:56.073] [board_logger] [trace] Board object created 57
+[2025-11-09 14:58:56.073] [board_logger] [info] openning port COM3
+[2025-11-09 15:00:38.900] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 15:00:38.901] [board_logger] [trace] Board object created 57
+[2025-11-09 15:00:38.901] [board_logger] [info] openning port COM3
+[2025-11-09 15:02:27.484] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 15:02:27.484] [board_logger] [trace] Board object created 57
+[2025-11-09 15:02:27.484] [board_logger] [info] openning port COM3
+[2025-11-09 15:04:23.840] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 15:04:23.841] [board_logger] [trace] Board object created 57
+[2025-11-09 15:04:23.841] [board_logger] [info] openning port COM3
+[2025-11-09 15:08:05.435] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 15:08:05.435] [board_logger] [trace] Board object created 57
+[2025-11-09 15:08:05.435] [board_logger] [info] openning port COM3
+[2025-11-09 15:10:35.753] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 15:10:35.754] [board_logger] [trace] Board object created 57
+[2025-11-09 15:10:35.754] [board_logger] [info] openning port COM3
+[2025-11-09 15:11:22.289] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 15:11:22.289] [board_logger] [trace] Board object created 57
+[2025-11-09 15:11:22.289] [board_logger] [info] openning port COM3
+[2025-11-09 15:37:34.000] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 15:37:34.001] [board_logger] [trace] Board object created 57
+[2025-11-09 15:37:34.001] [board_logger] [info] openning port COM3
+[2025-11-09 15:40:17.070] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 15:40:17.070] [board_logger] [trace] Board object created 57
+[2025-11-09 15:40:17.070] [board_logger] [info] openning port COM3
+[2025-11-09 15:41:38.722] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 15:41:38.722] [board_logger] [trace] Board object created 57
+[2025-11-09 15:41:38.722] [board_logger] [info] openning port COM3
+[2025-11-09 15:50:22.333] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 15:50:22.334] [board_logger] [trace] Board object created 57
+[2025-11-09 15:50:22.334] [board_logger] [info] openning port COM3
+[2025-11-09 15:50:33.054] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 15:50:33.055] [board_logger] [trace] Board object created 57
+[2025-11-09 15:50:33.055] [board_logger] [info] openning port COM3
+[2025-11-09 15:56:09.625] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 15:56:09.626] [board_logger] [trace] Board object created 57
+[2025-11-09 15:56:09.626] [board_logger] [info] openning port COM3
+[2025-11-09 15:57:58.352] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 15:57:58.352] [board_logger] [trace] Board object created 57
+[2025-11-09 15:57:58.352] [board_logger] [info] openning port COM3
+[2025-11-09 16:13:21.449] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 16:13:21.449] [board_logger] [trace] Board object created 57
+[2025-11-09 16:13:21.449] [board_logger] [info] openning port COM3
+[2025-11-09 16:21:11.844] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 16:21:11.845] [board_logger] [trace] Board object created 57
+[2025-11-09 16:21:11.845] [board_logger] [info] openning port COM3
+[2025-11-09 17:02:35.529] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 17:02:35.529] [board_logger] [trace] Board object created 57
+[2025-11-09 17:02:35.529] [board_logger] [info] openning port COM3
+[2025-11-09 19:18:49.628] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:18:49.629] [board_logger] [trace] Board object created 57
+[2025-11-09 19:18:49.629] [board_logger] [info] openning port COM3
+[2025-11-09 19:20:23.380] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:20:23.380] [board_logger] [trace] Board object created 57
+[2025-11-09 19:20:23.380] [board_logger] [info] openning port COM3
+[2025-11-09 19:22:25.294] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:22:25.294] [board_logger] [trace] Board object created 57
+[2025-11-09 19:22:25.294] [board_logger] [info] openning port COM3
+[2025-11-09 19:25:18.457] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:25:18.457] [board_logger] [trace] Board object created 57
+[2025-11-09 19:25:18.457] [board_logger] [info] openning port COM3
+[2025-11-09 19:25:54.525] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:25:54.525] [board_logger] [trace] Board object created 57
+[2025-11-09 19:25:54.525] [board_logger] [info] openning port COM3
+[2025-11-09 19:29:35.295] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:29:35.296] [board_logger] [trace] Board object created 57
+[2025-11-09 19:29:35.296] [board_logger] [info] openning port COM3
+[2025-11-09 19:32:22.410] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:32:22.410] [board_logger] [trace] Board object created 57
+[2025-11-09 19:32:22.410] [board_logger] [info] openning port COM3
+[2025-11-09 19:33:32.974] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:33:32.974] [board_logger] [trace] Board object created 57
+[2025-11-09 19:33:32.974] [board_logger] [info] openning port COM3
+[2025-11-09 19:33:55.419] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:33:55.419] [board_logger] [trace] Board object created 57
+[2025-11-09 19:33:55.419] [board_logger] [info] openning port COM3
+[2025-11-09 19:35:14.240] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:35:14.240] [board_logger] [trace] Board object created 57
+[2025-11-09 19:35:14.240] [board_logger] [info] openning port COM3
+[2025-11-09 19:38:50.250] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:38:50.250] [board_logger] [trace] Board object created 57
+[2025-11-09 19:38:50.250] [board_logger] [info] openning port COM3
+[2025-11-09 19:39:18.864] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:39:18.865] [board_logger] [trace] Board object created 57
+[2025-11-09 19:39:18.865] [board_logger] [info] openning port COM3
+[2025-11-09 19:42:26.778] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:42:26.778] [board_logger] [trace] Board object created 57
+[2025-11-09 19:42:26.778] [board_logger] [info] openning port COM3
+[2025-11-09 19:45:48.622] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:45:48.623] [board_logger] [trace] Board object created 57
+[2025-11-09 19:45:48.623] [board_logger] [info] openning port COM3
+[2025-11-09 19:46:20.936] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 19:46:20.936] [board_logger] [trace] Board object created 57
+[2025-11-09 19:46:20.936] [board_logger] [info] openning port COM3
+[2025-11-09 20:45:14.373] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 20:45:14.374] [board_logger] [trace] Board object created 57
+[2025-11-09 20:45:14.374] [board_logger] [info] openning port COM3
+[2025-11-09 20:46:19.733] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 20:46:19.734] [board_logger] [trace] Board object created 57
+[2025-11-09 20:46:19.734] [board_logger] [info] openning port COM3
+[2025-11-09 20:48:18.703] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 20:48:18.704] [board_logger] [trace] Board object created 57
+[2025-11-09 20:48:18.704] [board_logger] [info] openning port COM3
+[2025-11-09 20:50:24.747] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 20:50:24.748] [board_logger] [trace] Board object created 57
+[2025-11-09 20:50:24.748] [board_logger] [info] openning port COM3
+[2025-11-09 20:51:45.033] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 20:51:45.034] [board_logger] [trace] Board object created 57
+[2025-11-09 20:51:45.034] [board_logger] [info] openning port COM3
+[2025-11-09 20:53:05.301] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 20:53:05.301] [board_logger] [trace] Board object created 57
+[2025-11-09 20:53:05.301] [board_logger] [info] openning port COM3
+[2025-11-09 20:54:30.904] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 20:54:30.905] [board_logger] [trace] Board object created 57
+[2025-11-09 20:54:30.905] [board_logger] [info] openning port COM3
+[2025-11-09 20:56:18.688] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 20:56:18.690] [board_logger] [trace] Board object created 57
+[2025-11-09 20:56:18.690] [board_logger] [info] openning port COM3
+[2025-11-09 20:56:37.468] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 20:56:37.469] [board_logger] [trace] Board object created 57
+[2025-11-09 20:56:37.469] [board_logger] [info] openning port COM3
+[2025-11-09 21:01:45.881] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:01:45.882] [board_logger] [trace] Board object created 57
+[2025-11-09 21:01:45.882] [board_logger] [info] openning port COM3
+[2025-11-09 21:02:01.501] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:02:01.502] [board_logger] [trace] Board object created 57
+[2025-11-09 21:02:01.502] [board_logger] [info] openning port COM3
+[2025-11-09 21:03:11.711] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:03:11.712] [board_logger] [trace] Board object created 57
+[2025-11-09 21:03:11.712] [board_logger] [info] openning port COM3
+[2025-11-09 21:04:54.309] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:04:54.310] [board_logger] [trace] Board object created 57
+[2025-11-09 21:04:54.310] [board_logger] [info] openning port COM3
+[2025-11-09 21:07:46.496] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:07:46.497] [board_logger] [trace] Board object created 57
+[2025-11-09 21:07:46.497] [board_logger] [info] openning port COM3
+[2025-11-09 21:10:24.987] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:10:24.988] [board_logger] [trace] Board object created 57
+[2025-11-09 21:10:24.988] [board_logger] [info] openning port COM3
+[2025-11-09 21:11:48.288] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:11:48.288] [board_logger] [trace] Board object created 57
+[2025-11-09 21:11:48.288] [board_logger] [info] openning port COM3
+[2025-11-09 21:16:09.040] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:16:09.040] [board_logger] [trace] Board object created 57
+[2025-11-09 21:16:09.040] [board_logger] [info] openning port COM3
+[2025-11-09 21:27:55.153] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:27:55.153] [board_logger] [trace] Board object created 57
+[2025-11-09 21:27:55.153] [board_logger] [info] openning port COM3
+[2025-11-09 21:43:01.253] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:43:01.254] [board_logger] [trace] Board object created 57
+[2025-11-09 21:43:01.254] [board_logger] [info] openning port COM3
+[2025-11-09 21:44:40.969] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:44:40.970] [board_logger] [trace] Board object created 57
+[2025-11-09 21:44:40.970] [board_logger] [info] openning port COM3
+[2025-11-09 21:44:54.980] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:44:54.980] [board_logger] [trace] Board object created 57
+[2025-11-09 21:44:54.980] [board_logger] [info] openning port COM3
+[2025-11-09 21:48:04.683] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:48:04.684] [board_logger] [trace] Board object created 57
+[2025-11-09 21:48:04.684] [board_logger] [info] openning port COM3
+[2025-11-09 21:54:35.722] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:54:35.723] [board_logger] [trace] Board object created 57
+[2025-11-09 21:54:35.723] [board_logger] [info] openning port COM3
+[2025-11-09 21:55:45.340] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:55:45.341] [board_logger] [trace] Board object created 57
+[2025-11-09 21:55:45.341] [board_logger] [info] openning port COM3
+[2025-11-09 21:57:03.464] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:57:03.465] [board_logger] [trace] Board object created 57
+[2025-11-09 21:57:03.465] [board_logger] [info] openning port COM3
+[2025-11-09 21:58:28.546] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:58:28.547] [board_logger] [trace] Board object created 57
+[2025-11-09 21:58:28.547] [board_logger] [info] openning port COM3
+[2025-11-09 21:58:39.780] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 21:58:39.780] [board_logger] [trace] Board object created 57
+[2025-11-09 21:58:39.780] [board_logger] [info] openning port COM3
+[2025-11-09 22:01:18.750] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:01:18.750] [board_logger] [trace] Board object created 57
+[2025-11-09 22:01:18.750] [board_logger] [info] openning port COM3
+[2025-11-09 22:04:26.611] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:04:26.611] [board_logger] [trace] Board object created 57
+[2025-11-09 22:04:26.611] [board_logger] [info] openning port COM3
+[2025-11-09 22:07:21.695] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:07:21.695] [board_logger] [trace] Board object created 57
+[2025-11-09 22:07:21.695] [board_logger] [info] openning port COM3
+[2025-11-09 22:10:20.905] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:10:20.905] [board_logger] [trace] Board object created 57
+[2025-11-09 22:10:20.905] [board_logger] [info] openning port COM3
+[2025-11-09 22:10:44.998] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:10:44.998] [board_logger] [trace] Board object created 57
+[2025-11-09 22:10:44.998] [board_logger] [info] openning port COM3
+[2025-11-09 22:14:20.326] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:14:20.326] [board_logger] [trace] Board object created 57
+[2025-11-09 22:14:20.326] [board_logger] [info] openning port COM3
+[2025-11-09 22:19:53.681] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:19:53.681] [board_logger] [trace] Board object created 57
+[2025-11-09 22:19:53.681] [board_logger] [info] openning port COM3
+[2025-11-09 22:20:07.684] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:20:07.684] [board_logger] [trace] Board object created 57
+[2025-11-09 22:20:07.684] [board_logger] [info] openning port COM3
+[2025-11-09 22:21:30.396] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:21:30.397] [board_logger] [trace] Board object created 57
+[2025-11-09 22:21:30.397] [board_logger] [info] openning port COM3
+[2025-11-09 22:24:44.475] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:24:44.475] [board_logger] [trace] Board object created 57
+[2025-11-09 22:24:44.475] [board_logger] [info] openning port COM3
+[2025-11-09 22:27:02.347] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:27:02.348] [board_logger] [trace] Board object created 57
+[2025-11-09 22:27:02.348] [board_logger] [info] openning port COM3
+[2025-11-09 22:28:51.578] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:28:51.578] [board_logger] [trace] Board object created 57
+[2025-11-09 22:28:51.578] [board_logger] [info] openning port COM3
+[2025-11-09 22:29:04.202] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:29:04.202] [board_logger] [trace] Board object created 57
+[2025-11-09 22:29:04.202] [board_logger] [info] openning port COM3
+[2025-11-09 22:33:27.657] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:33:27.657] [board_logger] [trace] Board object created 57
+[2025-11-09 22:33:27.657] [board_logger] [info] openning port COM3
+[2025-11-09 22:35:06.036] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:35:06.037] [board_logger] [trace] Board object created 57
+[2025-11-09 22:35:06.037] [board_logger] [info] openning port COM3
+[2025-11-09 22:37:46.649] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:37:46.649] [board_logger] [trace] Board object created 57
+[2025-11-09 22:37:46.649] [board_logger] [info] openning port COM3
+[2025-11-09 22:40:29.527] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:40:29.528] [board_logger] [trace] Board object created 57
+[2025-11-09 22:40:29.528] [board_logger] [info] openning port COM3
+[2025-11-09 22:42:44.826] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:42:44.827] [board_logger] [trace] Board object created 57
+[2025-11-09 22:42:44.827] [board_logger] [info] openning port COM3
+[2025-11-09 22:44:38.485] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:44:38.485] [board_logger] [trace] Board object created 57
+[2025-11-09 22:44:38.485] [board_logger] [info] openning port COM3
+[2025-11-09 22:45:54.206] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:45:54.207] [board_logger] [trace] Board object created 57
+[2025-11-09 22:45:54.207] [board_logger] [info] openning port COM3
+[2025-11-09 22:48:09.968] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:48:09.969] [board_logger] [trace] Board object created 57
+[2025-11-09 22:48:09.969] [board_logger] [info] openning port COM3
+[2025-11-09 22:50:13.507] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2025-11-09 22:50:13.508] [board_logger] [trace] Board object created 57
+[2025-11-09 22:50:13.508] [board_logger] [info] openning port COM3
