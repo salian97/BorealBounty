@@ -1139,8 +1139,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1627,8 +1627,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2670,8 +2670,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3728,8 +3728,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4001,7 +4001,7 @@ GameObject:
   - component: {fileID: 1545674424}
   m_Layer: 0
   m_Name: BattleController
-  m_TagString: Untagged
+  m_TagString: BattleController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4021,7 +4021,7 @@ MonoBehaviour:
   inkJSON: {fileID: 4900000, guid: 5ace7ee4b5b35b60c82bd028a6e8c9ea, type: 3}
   knotName: Main
   questionDict: {fileID: 964044564}
-  Admin: {fileID: 1147365272}
+  Admin: {fileID: 964044563}
   difficulty: 
 --- !u!4 &1545674425
 Transform:
@@ -4243,8 +4243,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4699,9 +4699,11 @@ MonoBehaviour:
   bossDialogueBox: {fileID: 1512894647}
   bossTextObject: {fileID: 760706143}
   bossDialogueText: {fileID: 760706145}
+  BattleController: {fileID: 1545674424}
   isWaiting: 0
   isPlaying: 0
   currentSpeaker: 
+  battleComplete: 0
 --- !u!1 &1925120330
 GameObject:
   m_ObjectHideFlags: 0
