@@ -4123,7 +4123,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1, y: -0.019989014}
+  m_AnchoredPosition: {x: 1, y: -0.020019531}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1705232893
@@ -4400,6 +4400,7 @@ GameObject:
   - component: {fileID: 2061054036}
   - component: {fileID: 2061054038}
   - component: {fileID: 2061054039}
+  - component: {fileID: 2061054040}
   m_Layer: 0
   m_Name: cat
   m_TagString: NPC
@@ -4529,6 +4530,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 586f76468f48c474d8b13ca5d1bd045f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2061054040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061054035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9b8ebf181d3f454a7eb7d8a15e44e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2074203151

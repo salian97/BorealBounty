@@ -2,3 +2,35 @@
 [2025-11-10 03:43:29.173] [board_logger] [trace] Board object created -1
 [2025-11-10 03:44:05.693] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
 [2025-11-10 03:44:05.704] [board_logger] [trace] Board object created -1
+[2025-11-10 04:23:59.167] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 04:23:59.167] [board_logger] [trace] Board object created -1
+[2025-11-10 04:25:25.858] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 04:25:25.859] [board_logger] [trace] Board object created -1
+[2025-11-10 04:28:36.724] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 04:28:36.724] [board_logger] [trace] Board object created -1
+[2025-11-10 04:37:13.546] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 04:37:13.546] [board_logger] [trace] Board object created -1
+[2025-11-10 04:37:21.956] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 04:37:21.956] [board_logger] [trace] Board object created -1
+[2025-11-10 04:47:24.765] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 04:47:24.766] [board_logger] [trace] Board object created -1
+[2025-11-10 04:47:32.209] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 04:47:32.209] [board_logger] [trace] Board object created -1
+[2025-11-10 05:24:42.856] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 05:24:42.857] [board_logger] [trace] Board object created -1
+[2025-11-10 05:30:51.363] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 05:30:51.363] [board_logger] [trace] Board object created -1
+[2025-11-10 05:35:06.740] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 05:35:06.741] [board_logger] [trace] Board object created -1
+[2025-11-10 05:35:31.857] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 05:35:31.857] [board_logger] [trace] Board object created -1
+[2025-11-10 05:37:13.031] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 05:37:13.031] [board_logger] [trace] Board object created -1
+[2025-11-10 05:41:51.019] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 05:41:51.019] [board_logger] [trace] Board object created -1
+[2025-11-10 05:42:05.189] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 05:42:05.189] [board_logger] [trace] Board object created -1
+[2025-11-10 05:42:16.824] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 05:42:16.824] [board_logger] [trace] Board object created -1
+[2025-11-10 05:42:30.171] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 05:42:30.171] [board_logger] [trace] Board object created -1

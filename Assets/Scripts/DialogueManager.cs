@@ -9,6 +9,7 @@ using Ink.Runtime;
 using Unity.UI;
 using System;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 
 public class DialogueManager : MonoBehaviour
@@ -168,6 +169,7 @@ public class DialogueManager : MonoBehaviour
         dialogueBox.SetActive(false);
         isPlaying = false;
         dialogueText.text = "";
+        SceneManager.LoadScene(BattleReturnData.lastScene);
     }
 
     void DisplayAnswers(bool isAnswer)

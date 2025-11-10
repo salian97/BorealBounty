@@ -3503,6 +3503,7 @@ GameObject:
   - component: {fileID: 1414413211}
   - component: {fileID: 1414413214}
   - component: {fileID: 1414413213}
+  - component: {fileID: 1414413215}
   m_Layer: 0
   m_Name: Owl
   m_TagString: NPC
@@ -3634,6 +3635,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9.997476, y: 43.39467}
   m_EdgeRadius: 0
+--- !u!114 &1414413215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414413210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9b8ebf181d3f454a7eb7d8a15e44e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1459561116
 GameObject:
   m_ObjectHideFlags: 0
