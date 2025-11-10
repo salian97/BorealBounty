@@ -1,3 +1,5 @@
+#nullable disable
+
 using System.Collections;
 using UnityEngine;
 using TMPro;
