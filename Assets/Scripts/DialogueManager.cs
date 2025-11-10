@@ -10,6 +10,7 @@ using Unity.UI;
 using System;
 using Unity.VisualScripting;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 
 public class DialogueManager : MonoBehaviour
@@ -200,7 +201,7 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("End");
         dialogueBox.SetActive(false);
         dialogueText.text = "";
-        battleComplete = true;
+        SceneManager.LoadScene(BattleReturnData.lastScene);
     }
 
     void DisplayAnswers(bool isAnswer)
