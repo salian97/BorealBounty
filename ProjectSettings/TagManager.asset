@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Admin
+  - NPC
+  - ScreenBorder
   layers:
   - Default
   - TransparentFX
