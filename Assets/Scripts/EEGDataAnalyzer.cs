@@ -17,6 +17,10 @@ public class EEGDataAnalyzer : MonoBehaviour
     private double sumOfMindfulness = 0.0;
     private double nMindfulness = 0.0;
 
+    // Expose BrainFlow's BoardIds in the inspector but we'll limit the selectable options
+    [Tooltip("Select which BrainFlow board to use (Synthetic or NeuroPawn Knight).")]
+    public BoardIds board_id = BoardIds.SYNTHETIC_BOARD;
+
     [Inspectable]
     public string serial_port = "COMx"; // set the serial port of your NeuroPawn Knight Board here
 
@@ -30,17 +34,19 @@ public class EEGDataAnalyzer : MonoBehaviour
 
             BrainFlowInputParams input_params = new BrainFlowInputParams();
 
-            // int board_id = (int) BoardIds.NEUROPAWN_KNIGHT_BOARD; // By default use NeuroPawn Knight Board
-            int board_id = (int) BoardIds.SYNTHETIC_BOARD; // use Synthetic Board for test mode
-            
-            // input_params.serial_port = serial_port; 
-            
-            board_shim = new BoardShim(board_id, input_params);
+            // use the selected BrainFlow board id (only two options are presented in the custom inspector)
+            int board_id_int = (int)board_id;
+            if (board_id == BoardIds.NEUROPAWN_KNIGHT_BOARD)
+            {
+                input_params.serial_port = serial_port; // only needed for serial boards like NeuroPawn
+            }
+
+            board_shim = new BoardShim(board_id_int, input_params);
 
             board_shim.prepare_session();
             board_shim.start_stream(450000);
-            sampling_rate = BoardShim.get_sampling_rate(board_id);
-            eeg_channels = BoardShim.get_eeg_channels(board_id);
+            sampling_rate = BoardShim.get_sampling_rate(board_id_int);
+            eeg_channels = BoardShim.get_eeg_channels(board_id_int);
             Debug.Log("Brainflow streaming was started");
 
             // Create ML model to predict Mindfulness 
