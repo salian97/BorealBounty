@@ -41,14 +41,14 @@ public class ReadCSV : MonoBehaviour
             QuestionsList.Add(newQuestion);
         }
 
-        /*
+        
         //For testing purposes
         Console.WriteLine("Parsed CSV Data:");
         foreach (QuestionData question in QuestionsList)
         {
             Debug.Log($"{question.Question} --- {question.Answer1} --- {question.Answer2} --- {question.Answer3} --- {question.Answer4} --- {question.Hint} --- {question.CorrectAnswer} --- {question.Difficulty}");
         }
-        */
+        
     }
 
 }
