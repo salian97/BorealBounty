@@ -30,7 +30,7 @@ public class ReadCSV : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //CSVName = "Chem.csv";
+        CSVName = "Chem.csv";
         CSVFilepath = "Assets/CSVs/" + CSVName;
         QuestionsList = new List<QuestionData>();
 
@@ -52,8 +52,8 @@ public class ReadCSV : MonoBehaviour
             QuestionsList.Add(newQuestion);
         }
 
-        //For testing purposes
         /*
+        //For testing purposes
         Console.WriteLine("Parsed CSV Data:");
         foreach (QuestionData question in QuestionsList)
         {
