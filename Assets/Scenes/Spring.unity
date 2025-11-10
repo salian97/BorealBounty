@@ -3033,8 +3033,8 @@ GameObject:
   - component: {fileID: 708328572}
   - component: {fileID: 708328574}
   - component: {fileID: 708328576}
-  - component: {fileID: 708328575}
   - component: {fileID: 708328577}
+  - component: {fileID: 708328578}
   m_Layer: 0
   m_Name: Squirrel
   m_TagString: Player
@@ -3163,19 +3163,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stumpTilemap: {fileID: 583259720}
   moveSpeed: 6
---- !u!114 &708328575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 708328569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b9188c2e0d56a34e817877ec1cfe57c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueUI: {fileID: 1705232891}
 --- !u!61 &708328576
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3231,6 +3218,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 120175f7f548c6c4fb888685a9da3da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &708328578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708328569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2341b7d5f353c844fb19bf24e4a1ace4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &765369842
@@ -4400,6 +4399,7 @@ GameObject:
   - component: {fileID: 2061054037}
   - component: {fileID: 2061054036}
   - component: {fileID: 2061054038}
+  - component: {fileID: 2061054039}
   m_Layer: 0
   m_Name: cat
   m_TagString: NPC
@@ -4448,7 +4448,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 212a6ecab88d1bd5ab6124d277df5836, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 972d5a34548c04bb3bea8da078d1823f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4468,8 +4468,8 @@ Transform:
   m_GameObject: {fileID: 2061054035}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.93, y: 2.19, z: 0}
-  m_LocalScale: {x: 0.117817804, y: 0.117817804, z: 0.117817804}
+  m_LocalPosition: {x: 0.85, y: 2.4751, z: 0}
+  m_LocalScale: {x: 0.16900964, y: 0.17536002, z: 0.117817804}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4506,19 +4506,31 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 2.2918358, y: 2.3724618}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 12, y: 12}
+    oldSize: {x: 14.4, y: 9.91}
     newSize: {x: 12, y: 12}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12, y: 12}
+  m_Size: {x: 30.674232, y: 7.2550764}
   m_EdgeRadius: 0
+--- !u!114 &2061054039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061054035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 586f76468f48c474d8b13ca5d1bd045f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2074203151
 GameObject:
   m_ObjectHideFlags: 0
