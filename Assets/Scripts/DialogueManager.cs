@@ -379,6 +379,7 @@ public class DialogueManager : MonoBehaviour
 
         // Instantiate new instance and store reference
         currentInstance = Instantiate(prefab, Vector3.zero, Quaternion.identity);
+        instanceScript = currentInstance.GetComponent<EEGDataAnalyzer>();
         Debug.Log("Prefab spawned");
     }
 
@@ -386,7 +387,6 @@ public class DialogueManager : MonoBehaviour
     {
         if (currentInstance != null)
         {
-            instanceScript = currentInstance.GetComponent<EEGDataAnalyzer>();
 
             if (instanceScript == null)
             {
