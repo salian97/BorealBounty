@@ -1,0 +1,2 @@
+[2025-11-10 10:33:19.063] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 10:33:19.063] [board_logger] [trace] Board object created -1

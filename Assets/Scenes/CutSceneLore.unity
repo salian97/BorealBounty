@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 60030073}
-  typingSpeed: 0.1
+  typingSpeed: 0.05
 --- !u!114 &60030073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1358,7 +1358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 1191261479}
-  typingSpeed: 0.1
+  typingSpeed: 0.05
 --- !u!114 &1191261479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1816,7 +1816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 1559145016}
-  typingSpeed: 0.1
+  typingSpeed: 0.05
 --- !u!114 &1559145016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2106,7 +2106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 1782453796}
-  typingSpeed: 0.1
+  typingSpeed: 0.05
 --- !u!114 &1782453796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2462,7 +2462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 2027880806}
-  typingSpeed: 0.1
+  typingSpeed: 0.05
 --- !u!114 &2027880806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2855,7 +2855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 2103453095}
-  typingSpeed: 0.1
+  typingSpeed: 0.05
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
