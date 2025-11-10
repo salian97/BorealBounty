@@ -34,6 +34,10 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject bossTextObject;
     public TextMeshProUGUI bossDialogueText;
 
+    [SerializeField] private BattleLogic BattleController;
+
+    private QuestionData testQuestion;
+
 
     // Comes form ink, based on an inkJSON file
     private Story currentStory;
@@ -46,6 +50,8 @@ public class DialogueManager : MonoBehaviour
     //public bool canClick = false;
     public string currentSpeaker;
     private bool currentlyAsking;
+    public bool battleComplete;
+    private int indexChoice;
 
     void Awake()
     {
@@ -65,6 +71,7 @@ public class DialogueManager : MonoBehaviour
     {
         playerController = player.GetComponent<PlayerController>();
         currentlyAsking = false;
+        battleComplete = false;
 
         dialogueBox.SetActive(false);
         dialogueChoices.SetActive(false);
@@ -89,10 +96,17 @@ public class DialogueManager : MonoBehaviour
         {
             return;
         }
+        //Debug.Log($"{isPlaying} {isWaiting} {battleComplete}");
         if (isPlaying && !isWaiting && playerController.clickAction.WasPressedThisFrame())
         {
-            Debug.Log("Update can be called");
-            ContinueStory();
+            if (!battleComplete)
+            {
+                ContinueStory();
+            }
+            else
+            {
+                isPlaying = false;
+            }
         }
     }
 
@@ -128,12 +142,10 @@ public class DialogueManager : MonoBehaviour
     {
         if (currentlyAsking)
         {
-            Debug.Log("Currently asking!");
             StartQuestion();
         }
         else if (currentStory.canContinue)
         {
-            Debug.Log($"Current speaker is {currentSpeaker}");
             if (currentSpeaker == "Boss")
             {
                 bossDialogueBox.SetActive(true);
@@ -157,44 +169,42 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Calling end QuesstionDialogue");
-            currentlyAsking = GetBoolVar("asking");
             EndQuestionDialogue();
         }
     }
 
     void EndQuestionDialogue()
     {
+        Debug.Log("End");
         dialogueBox.SetActive(false);
-        isPlaying = false;
         dialogueText.text = "";
+        battleComplete = true;
     }
 
     void DisplayAnswers(bool isAnswer)
     {
         // This is here the question is called, when isAnswer is true. If isAnswer is false, this is dialogue choices and not a question.
         // Put functionality to record brain stuff here, but put it under a if (isAnswer){};
-
-        Debug.Log($"isAnswer: {isAnswer}");
         List<Choice> currentChoices = currentStory.currentChoices;
         if (currentChoices.Count <= 0)
         {
             // There are no choices to display
+            //if (isAnswer){ ContinueStory(); }
             return;
         }
         else if (currentChoices.Count > choices.Length)
         {
             Debug.Log("There are more answeres given than the UI can handle (> 4)");
         }
+        bossTextObject.SetActive(isAnswer);
 
-        if (!isAnswer)
+        /*
+        if (isAnswer)
         {
-            bossTextObject.SetActive(false);
+            QuestionData question = BattleController.GetQuestion();
+            FitQuestion(question);
         }
-        else
-        {
-            bossTextObject.SetActive(true);
-        }
+        */
 
         textObject.SetActive(false);
         dialogueBox.SetActive(true);
@@ -220,8 +230,14 @@ public class DialogueManager : MonoBehaviour
                 index++;
             }
         }
-        
+
+        if (isAnswer)
+        {
+            testQuestion = BattleController.GetQuestion("easy");
+            FitQuestion(testQuestion);
+        }
     }
+
     public void MakeChoice(int choiceIndex)
     {
         if (currentlyAsking)
@@ -229,9 +245,16 @@ public class DialogueManager : MonoBehaviour
             // End brain sensor
         }
 
-        Debug.Log("A choice has been made");
         dialogueChoices.SetActive(false);
         currentStory.ChooseChoiceIndex(choiceIndex);
+        if (currentlyAsking)
+        {
+            currentStory.Continue();
+            indexChoice = GetIntVar("chosenIndex");
+            Debug.Log(indexChoice);
+            CompareAnswer(testQuestion);
+            dialogueBox.SetActive(false);
+        }
         isWaiting = false;
         currentlyAsking = false;
         textObject.SetActive(true);
@@ -253,13 +276,17 @@ public class DialogueManager : MonoBehaviour
     public bool GetBoolVar(string varName)
     {
         bool varValue = (bool)currentStory.variablesState[varName];
-        Debug.Log($"Currently aking {currentlyAsking}");
+        return varValue;
+    }
+
+    public int GetIntVar(string varName)
+    {
+        int varValue = (int)currentStory.variablesState[varName];
         return varValue;
     }
 
     public void StartQuestion()
     {
-        Debug.Log("Start question bit");
         dialogueBox.SetActive(true);
         textObject.SetActive(true);
 
@@ -268,33 +295,55 @@ public class DialogueManager : MonoBehaviour
         bossDialogueText.text = currentStory.Continue();
 
         DisplayAnswers(true);
-        
 
+    }
 
-        /*
-        if (currentStory.canContinue)
+    public void FitQuestion(QuestionData question)
+    {
+        if (question == null) { Debug.Log("Question is null"); }
+        else if (question.Question == null) { Debug.Log("Question title is null"); }
+        Debug.Log(question.Question);
+        bossDialogueText.text = question.Question;
+
+        choicesText[0].text = question.Answer1;
+        choicesText[1].text = question.Answer2;
+        if (question.Answer3 != null)
         {
-            currentSpeaker = GetStringVar("currentSpeaker");
-            if (currentSpeaker == "Boss")
+            choicesText[2].text = question.Answer3;
+            if (question.Answer4 != null)
             {
-                bossDialogueBox.SetActive(true);
-                bossDialogueText.text = currentStory.Continue();
-                dialogueBox.SetActive(false);
+                choicesText[3].text = question.Answer4;
             }
-            else if (currentSpeaker == "Squirrel")
-            {
-                dialogueBox.SetActive(true);
-                dialogueText.text = currentStory.Continue();
-                bossDialogueBox.SetActive(false);
-            }
+        }
+    }
 
-            DisplayAnswers();
+    public void CompareAnswer(QuestionData question)
+    {
+        string toCompare = "";
+        switch (indexChoice)
+        {
+            case 0:
+                toCompare = question.Answer1;
+                break;
+            case 1:
+                toCompare = question.Answer2;
+                break;
+            case 2:
+                toCompare = question.Answer3;
+                break;
+            case 3:
+                toCompare = question.Answer4;
+                break;
+        }
+        if (toCompare == question.CorrectAnswer)
+        {
+            Debug.Log("Correct Answer!");
+            SetVar("correctAnswer", true);
         }
         else
         {
-            EndQuestionDialogue();
-        };
-        */
+            Debug.Log("Incorrect Answer");
+            SetVar("correctAnswer", false);
+        }
     }
-    
 }

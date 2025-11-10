@@ -17,48 +17,47 @@ public class BattleLogic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         if (Admin == null)
             {
                 Debug.LogError("Admin GameObject is not assigned in the Inspector!");
-                return;
             }
-            
+
             questionDict = Admin.GetComponent<QuestionDictionary>();
-            
+
             if (questionDict == null)
             {
                 Debug.LogError("QuestionDictionary component not found on Admin GameObject!");
-                return;
             }
-        
-
         //Admin = GameObject.FindGameObjectWithTag("Admin");
         //questionDict = Admin.GetComponent<QuestionDictionary>();
-        difficulty = "easy";
         //knotName = "TestDialogue";
     }
+    
 
     // Update is called once per frame
     void Update()
     {
-        if (!DialogueManager.Instance.isPlaying)
+        if (!DialogueManager.Instance.isPlaying && !DialogueManager.Instance.battleComplete)
         {
             Debug.Log("Dialogue is triggered by scene start");
             DialogueManager.Instance.StartQuestionDialogue(inkJSON, knotName);
-            GetQuestion();
+            //GetQuestion(difficulty);
         }
     }
     
-    void GetQuestion()
+    public QuestionData GetQuestion(string difficulty)
     {
         if (questionDict == null)
         {
             Debug.LogError("questionDict is null");
-            return;
+            return null;
         }
-        
+
         Debug.Log("A random question is called!");
         testQuestion = questionDict.GetRandomQuestion(difficulty);
+        Debug.Log($"{testQuestion.Question} {testQuestion.Answer1}");
+        return testQuestion;
         
 
         /*
