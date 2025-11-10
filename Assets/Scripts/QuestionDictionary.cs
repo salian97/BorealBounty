@@ -5,10 +5,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using System;
+using UnityEngine.SceneManagement;
 
 public class QuestionDictionary : MonoBehaviour
 {
-    private Dictionary<string, List<QuestionData>> questionDict;
+    public Dictionary<string, List<QuestionData>> questionDict;
     private Dictionary<string, List<QuestionData>> askedQuestionsDict;
     private List<QuestionData> questionsList;
     [SerializeField] private GameObject Admin;
@@ -49,10 +50,11 @@ public class QuestionDictionary : MonoBehaviour
         ProcessQuestions();
     }
 
+
     public void ProcessQuestions()
     {
         var groupedQuestions = questionsList.GroupBy(p => p.Difficulty);
-        
+
         foreach (var group in groupedQuestions)
         {
             questionDict.Add(group.Key, group.ToList());

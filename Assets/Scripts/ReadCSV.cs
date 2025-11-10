@@ -10,17 +10,6 @@ using System;
 
 public class ReadCSV : MonoBehaviour
 {
-    /*
-
-    For Zoe's reference:
-    CSV files are formated as:
-
-    Key-header, header2, header3 ...
-    key-value1, value1.2, value1.3...
-    key-value2, value2.2, value 2.3
-    etc.
-
-    */
 
     private string CSVFilepath;
     [SerializeField] private string CSVName;
@@ -28,7 +17,7 @@ public class ReadCSV : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         CSVName = "Chem.csv";
         CSVFilepath = "Assets/CSVs/" + CSVName;

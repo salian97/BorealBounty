@@ -8,6 +8,7 @@ TagManager:
   - ScreenBorder
   - BattleController
   - BrainFlow
+  - Admin
   layers:
   - Default
   - TransparentFX

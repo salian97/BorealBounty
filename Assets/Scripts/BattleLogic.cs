@@ -17,21 +17,36 @@ public class BattleLogic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Admin = GameObject.FindGameObjectWithTag("Admin");
+        questionDict = Admin.GetComponent<QuestionDictionary>();
+        //inkJSON = 
+        knotName = "Main";
+        
+        StartCoroutine(WaitForData());
+    }
 
+    IEnumerator WaitForData()
+    {
+        // Wait until questions are loaded
+        while (Admin.GetComponent<ReadCSV>().QuestionsList == null || Admin.GetComponent<ReadCSV>().QuestionsList.Count == 0 || Admin.GetComponent<QuestionDictionary>().questionDict == null)
+        {
+            Debug.Log("Waiting for data to load...");
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        // Now the data is ready
         if (Admin == null)
             {
                 Debug.LogError("Admin GameObject is not assigned in the Inspector!");
             }
 
-            questionDict = Admin.GetComponent<QuestionDictionary>();
+        questionDict = Admin.GetComponent<QuestionDictionary>();
 
-            if (questionDict == null)
-            {
-                Debug.LogError("QuestionDictionary component not found on Admin GameObject!");
-            }
-        //Admin = GameObject.FindGameObjectWithTag("Admin");
-        //questionDict = Admin.GetComponent<QuestionDictionary>();
-        //knotName = "TestDialogue";
+        if (questionDict == null)
+        {
+            Debug.LogError("QuestionDictionary component not found on Admin GameObject!");
+        }
+            
     }
     
 
