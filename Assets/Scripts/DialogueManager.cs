@@ -41,7 +41,6 @@ public class DialogueManager : MonoBehaviour
     private QuestionData testQuestion;
 
 
-
     private GameObject currentInstance;
     public GameObject prefab;
 
@@ -60,7 +59,10 @@ public class DialogueManager : MonoBehaviour
     public bool battleComplete;
     private int indexChoice;
     private int mindfullness;
+    private int diff_bias;
     private int correctAnswer = 2;
+   
+    private int diff_case = 0;
 
     private EEGDataAnalyzer instanceScript;
 
@@ -256,7 +258,38 @@ public class DialogueManager : MonoBehaviour
 
         if (isAnswer)
         {
-            testQuestion = BattleController.GetQuestion("easy");
+            string difficulty = null;
+            int mindfulness = mindfullness;
+
+            if (mindfulness < 30)
+            {
+                diff_bias += 5; // arbitrary scale
+            }
+            else if (mindfulness > 80)
+            {
+                diff_bias -= 3; // arbitrary scale, less weight encourages harder questions
+            }
+
+            if (correctAnswer == 2) { diff_bias += 3; }
+            else { diff_bias -= 4; }
+
+            if (diff_bias >= 15 && diff_case <= 2) { ++diff_case; }
+            else if (diff_bias <= 15 && diff_case >= 0) { --diff_case; }
+
+            switch (diff_case)
+            {
+                case 0:
+                    difficulty = "easy";
+                    break;
+                case 1:
+                    difficulty = "medium";
+                    break;
+                case 2:
+                    difficulty = "hard";
+                    break;
+            } 
+
+            testQuestion = BattleController.GetQuestion(difficulty);
             FitQuestion(testQuestion);
             SpawnTracker();
         }
@@ -386,17 +419,17 @@ public class DialogueManager : MonoBehaviour
 
     public int DestroyTracker()
     {
+        int tracker_output = 0;
         if (currentInstance != null)
         {
 
             if (instanceScript == null)
             {
                 Debug.LogError("script not found on the prefab instance");
-                mindfullness = 0;
             }
             else
             {
-                int mindfullness = instanceScript.GetMindfulnessScore();
+                tracker_output = instanceScript.GetMindfulnessScore();
             }
 
             Destroy(currentInstance);
@@ -404,6 +437,6 @@ public class DialogueManager : MonoBehaviour
             instanceScript = null;
             Debug.Log("Prefab destroyed");
         }
-        return mindfullness;
+        return tracker_output;
     }
 }
