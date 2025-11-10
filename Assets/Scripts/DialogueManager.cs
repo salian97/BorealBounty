@@ -258,7 +258,7 @@ public class DialogueManager : MonoBehaviour
 
         if (isAnswer)
         {
-            string difficulty = null;
+            string difficulty = "medium";
             int mindfulness = mindfullness;
 
             if (mindfulness < 30)
