@@ -9,6 +9,7 @@ using Ink.Runtime;
 using Unity.UI;
 using System;
 using Unity.VisualScripting;
+using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
 
@@ -40,6 +41,11 @@ public class DialogueManager : MonoBehaviour
     private QuestionData testQuestion;
 
 
+
+    private GameObject currentInstance;
+    public GameObject prefab;
+
+
     // Comes form ink, based on an inkJSON file
     private Story currentStory;
 
@@ -53,6 +59,10 @@ public class DialogueManager : MonoBehaviour
     private bool currentlyAsking;
     public bool battleComplete;
     private int indexChoice;
+    private int mindfullness;
+    private int correctAnswer = 2;
+
+    private EEGDataAnalyzer instanceScript;
 
     void Awake()
     {
@@ -151,9 +161,21 @@ public class DialogueManager : MonoBehaviour
             {
                 bossDialogueBox.SetActive(true);
                 bossTextObject.SetActive(true);
-                bossDialogueText.text = currentStory.Continue();
+                string newText = currentStory.Continue();
+                if (correctAnswer == 1)
+                {
+                    // 1 is true
+                    Debug.Log("Incorrect answer!! :DD");
+                    bossDialogueText.text = "The correct answer was: " + testQuestion.CorrectAnswer;
+                }
+                else
+                {
+                    bossDialogueText.text = newText;
+                }
                 dialogueBox.SetActive(false);
                 textObject.SetActive(false);
+                if (correctAnswer == 0) { correctAnswer = 1; }
+                else { correctAnswer = 3; }
             }
             else if (currentSpeaker == "Squirrel")
             {
@@ -236,16 +258,12 @@ public class DialogueManager : MonoBehaviour
         {
             testQuestion = BattleController.GetQuestion("easy");
             FitQuestion(testQuestion);
+            SpawnTracker();
         }
     }
 
     public void MakeChoice(int choiceIndex)
     {
-        if (currentlyAsking)
-        {
-            // End brain sensor
-        }
-
         dialogueChoices.SetActive(false);
         currentStory.ChooseChoiceIndex(choiceIndex);
         if (currentlyAsking)
@@ -255,6 +273,8 @@ public class DialogueManager : MonoBehaviour
             Debug.Log(indexChoice);
             CompareAnswer(testQuestion);
             dialogueBox.SetActive(false);
+            mindfullness = DestroyTracker();
+            Debug.Log($"Mindfullness for this question: {mindfullness}");
         }
         isWaiting = false;
         currentlyAsking = false;
@@ -340,11 +360,50 @@ public class DialogueManager : MonoBehaviour
         {
             Debug.Log("Correct Answer!");
             SetVar("correctAnswer", true);
+            correctAnswer = 2;
         }
         else
         {
             Debug.Log("Incorrect Answer");
             SetVar("correctAnswer", false);
+            correctAnswer = 0;
         }
+    }
+
+    void SpawnTracker()
+    {
+        // Destroy existing instance if any
+        if (currentInstance != null)
+        {
+            Destroy(currentInstance);
+        }
+
+        // Instantiate new instance and store reference
+        currentInstance = Instantiate(prefab, Vector3.zero, Quaternion.identity);
+        Debug.Log("Prefab spawned");
+    }
+
+    public int DestroyTracker()
+    {
+        if (currentInstance != null)
+        {
+            instanceScript = currentInstance.GetComponent<EEGDataAnalyzer>();
+
+            if (instanceScript == null)
+            {
+                Debug.LogError("script not found on the prefab instance");
+                mindfullness = 0;
+            }
+            else
+            {
+                int mindfullness = instanceScript.GetMindfulnessScore();
+            }
+
+            Destroy(currentInstance);
+            currentInstance = null; // clear the reference
+            instanceScript = null;
+            Debug.Log("Prefab destroyed");
+        }
+        return mindfullness;
     }
 }
