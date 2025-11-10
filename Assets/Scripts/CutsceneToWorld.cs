@@ -1,26 +1,43 @@
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CutsceneToWorld : MonoBehaviour
 {
-    public PlayableDirector cutsceneTimeline;  // assign in Inspector
-    public string worldSceneName = "Spring";
+    [Header("Cutscene Settings")]
+    public PlayableDirector timeline;
+
+    [Header("UI Settings")]
+    public Button nextButton;
+
+    [Header("Next Scene")]
+    public string nextSceneName = "NextScene"; // Change in Inspector
 
     void Start()
     {
-        if (cutsceneTimeline != null)
-        {
-            cutsceneTimeline.stopped += OnCutsceneEnded;
-        }
+        // Hide the button at the start
+        if (nextButton != null)
+            nextButton.gameObject.SetActive(false);
         else
-        {
-            Debug.LogWarning("PlayableDirector not assigned!");
-        }
+            Debug.LogWarning("Next Button not assigned in Inspector.");
+
+        // Subscribe to timeline end event
+        if (timeline != null)
+            timeline.stopped += OnCutsceneEnd;
+        else
+            Debug.LogWarning("Timeline not assigned in Inspector.");
     }
 
-    void OnCutsceneEnded(PlayableDirector director)
+    void OnCutsceneEnd(PlayableDirector director)
     {
-        SceneManager.LoadScene(worldSceneName);
+        // Show button when cutscene finishes
+        if (nextButton != null)
+            nextButton.gameObject.SetActive(true);
+    }
+
+    public void LoadNextScene()
+    {
+        SceneManager.LoadScene(nextSceneName);
     }
 }
