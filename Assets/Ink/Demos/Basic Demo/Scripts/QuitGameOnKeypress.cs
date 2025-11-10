@@ -1,6 +1,4 @@
-﻿#nullable disable
-
-using UnityEngine;
+﻿using UnityEngine;
 
 public class QuitGameOnKeypress : MonoBehaviour {
 	

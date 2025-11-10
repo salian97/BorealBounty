@@ -1,6 +1,4 @@
-﻿#nullable disable
-
-using System;
+﻿using System;
 using Ink.Runtime;
 using UnityEngine;
 using UnityEngine.UI;
