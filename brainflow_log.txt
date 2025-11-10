@@ -16575,3 +16575,7 @@
 [2025-11-09 11:26:06.628] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
 [2025-11-09 11:26:06.629] [board_logger] [trace] Board object created 57
 [2025-11-09 11:26:06.629] [board_logger] [info] openning port COM3
+[2025-11-10 00:42:54.701] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 00:42:54.702] [board_logger] [trace] Board object created -1
+[2025-11-10 00:55:51.294] [board_logger] [info] incoming json: {"file":"","file_anc":"","file_aux":"","ip_address":"","ip_address_anc":"","ip_address_aux":"","ip_port":0,"ip_port_anc":0,"ip_port_aux":0,"ip_protocol":0,"mac_address":"","master_board":-100,"other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2025-11-10 00:55:51.294] [board_logger] [trace] Board object created -1
